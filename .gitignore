@@ -1,0 +1,6 @@
+*.png
+*.log
+*.iml
+src/main
+.idea
+org.apache.log4j.ConsoleAppender
