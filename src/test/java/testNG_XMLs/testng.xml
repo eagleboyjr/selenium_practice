@@ -1,0 +1,13 @@
+<suite name="TestSuite">
+    <test name ="ExpediaSearchPage" preserver-order="true">
+        <classes>
+            <class name="test.testng.TestNG_TestSuite">
+                <methods>
+                    <include name ="test1_fillBasicInfo" />
+                    <include name="test2_fillAdvancedInfo" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

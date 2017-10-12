@@ -1,0 +1,58 @@
+<suite name="Test Suite">
+    <test name ="Firefox Grid Testing - Windows 10">
+        <parameters>
+            <parameter name="platform" value="Windows10" />
+            <parameter name="browser"  value="firefox" />
+            <parameter name="version"  value="50.0" />
+            <parameter name="url"  value="http://www.expedia.com" />
+        </parameters>
+        <classes>
+            <class name="seleniumgridtesting.SeleniumGrid_ParallelTestFramework"></class>
+        </classes>
+    </test>
+    <test name ="Chrome Grid Testing - Windows 10">
+        <parameters>
+            <parameter name="platform" value="Windows10" />
+            <parameter name="browser"  value="chrome" />
+            <parameter name="version"  value="54.0.2840.99" />
+            <parameter name="url"  value="http://www.expedia.com" />
+        </parameters>
+        <classes>
+            <class name="seleniumgridtesting.SeleniumGrid_ParallelTestFramework"></class>
+        </classes>
+    </test>
+    <test name ="Firefox Grid Testing - MacOS X">
+        <parameters>
+            <parameter name="platform" value="MacOS" />
+            <parameter name="browser"  value="firefox" />
+            <parameter name="version"  value="50.0" />
+            <parameter name="url"  value="http://www.expedia.com" />
+        </parameters>
+        <classes>
+            <class name="seleniumgridtesting.SeleniumGrid_ParallelTestFramework"></class>
+        </classes>
+    </test>
+    <test name ="Chrome Grid Testing - MacOS X">
+        <parameters>
+            <parameter name="platform" value="MacOS" />
+            <parameter name="browser"  value="chrome" />
+            <parameter name="version"  value="54.0.2840.99" />
+            <parameter name="url"  value="http://www.expedia.com" />
+        </parameters>
+        <classes>
+            <class name="seleniumgridtesting.SeleniumGrid_ParallelTestFramework"></class>
+        </classes>
+    </test>
+    <test name ="Safari Grid Testing - MacOS X">
+        <parameters>
+            <parameter name="platform" value="MacOS" />
+            <parameter name="browser"  value="safari" />
+            <parameter name="version"  value="10.0.1" />
+            <parameter name="url"  value="http://www.expedia.com" />
+        </parameters>
+        <classes>
+            <class name="seleniumgridtesting.SeleniumGrid_ParallelTestFramework"></class>
+        </classes>
+    </test>
+
+</suite>

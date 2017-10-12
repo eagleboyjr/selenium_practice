@@ -1,0 +1,16 @@
+<suite name="TestSuite" parallel="tests">
+    <test name="Chrome Test">
+        <parameter name="browserType" value="chrome" />
+        <classes>
+            <class name="test.testng.TestNG_MultiBrowserAndParallelTests">
+             </class>
+        </classes>
+    </test>
+    <test name="Firefox Test">
+        <parameter name="browserType" value="firefox" />
+        <classes>
+            <class name="test.testng.TestNG_MultiBrowserAndParallelTests">
+            </class>
+        </classes>
+    </test>
+</suite>

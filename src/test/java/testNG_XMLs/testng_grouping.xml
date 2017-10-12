@@ -1,0 +1,17 @@
+<suite name ="TestGroupingSuite">
+    <test name="TestGrouping" preserve-order="true">
+        <groups>
+            <define name="Hona and SUV">
+                <include name="Honda" />
+                <include name="SUV" />
+            </define>
+            <run>
+              <include name="Hona and SUV" />
+            </run>
+        </groups>
+        <classes>
+            <class name="test.testng.TestNG_Grouping" >
+            </class>
+        </classes>
+    </test>
+</suite>

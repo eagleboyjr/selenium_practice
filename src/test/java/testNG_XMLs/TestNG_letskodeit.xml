@@ -1,0 +1,10 @@
+<suite name="LetsKodeIt Login Testing Suite" parallel="tests" thread-count="2">
+    <test name="Firefox Test">
+        <parameter name="browserType" value="firefox" />
+        <classes>
+            <class name="datadriven.LetsKodeItLogin"></class>
+        </classes>
+    </test>
+
+
+</suite>

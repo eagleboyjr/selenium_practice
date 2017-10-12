@@ -1,0 +1,15 @@
+<suite name="TestSuite">
+    <test name="Firefox Test">
+        <parameter name="origin" value="New York" />
+        <parameter name="dest" value="Chicago" />
+        <parameter name="depDate" value="11/12/2016" />
+        <parameter name="retDate" value="11/19/2016" />
+        <classes>
+            <class name="test.testng.TestNG_ParametersAndDataProviders" />
+            <methods>
+                <!-- //Incuding the only method(s) we want to run -->
+                <include name="searchFlightsWithMultiData" />
+            </methods>
+        </classes>
+    </test>
+</suite>

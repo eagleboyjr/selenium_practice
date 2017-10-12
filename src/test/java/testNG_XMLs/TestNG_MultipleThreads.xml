@@ -1,0 +1,10 @@
+<suite name="MultuThreading TestSuite" parallel="classes" thread-count="2">
+   <test name="Firefox Test">
+        <classes>
+            <class name="test.testng.TestNG_MultiThreading">
+            </class>
+            <class name="test.testng.TestNG_GoogleSearch">
+            </class>
+        </classes>
+    </test>
+</suite>
